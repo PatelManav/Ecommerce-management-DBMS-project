@@ -74,7 +74,7 @@ You can directly copy and paste all the commands from the text given here into t
         c_pass VARCHAR(10) NOT NULL,
         Name VARCHAR(20) NOT NULL,
         Address VARCHAR(20) NOT NULL,
-        Pincode NUMBER(6) NOT NULL,
+        Pincode int NOT NULL,
         Phone_number_s number(10) NOT NULL,
         PRIMARY KEY (Customer_id),
         Cart_id VARCHAR(7) NOT NULL,
